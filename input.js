@@ -24,7 +24,7 @@ const setupInput = function(conn) {
     if (input === "w"){
         connection.write('Move: up');
     }
-    
+
     if (input === "a"){
       connection.write('Move: left');
     }
@@ -51,6 +51,4 @@ const setupInput = function(conn) {
     
   }
   
-
-
   module.exports={setupInput}
