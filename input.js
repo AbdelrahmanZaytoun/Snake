@@ -10,7 +10,6 @@ const setupInput = function(conn) {
     stdin.setEncoding('utf8');
     stdin.on('data', (data) => handleUserInput(conn, data))
     stdin.resume();
-    
     return stdin;
   }
 
@@ -18,6 +17,7 @@ const setupInput = function(conn) {
   
 
   const handleUserInput = (conn, input) => {
+    // console.log("----++++", input)
     if (input === '\u0003') {
       process.exit()
     } 
@@ -35,6 +35,10 @@ const setupInput = function(conn) {
 
     if (input === "d"){
       connection.write('Move: right');
+    }
+
+    if (input === "h") {
+      connection.write("Hello Friend");
     }
     
   }
