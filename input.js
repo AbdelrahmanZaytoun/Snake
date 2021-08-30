@@ -38,7 +38,15 @@ const setupInput = function(conn) {
     }
 
     if (input === "h") {
-      connection.write("Hello Friend");
+      connection.write("Say: Hi");
+    }
+
+    if (input === "f") {
+      connection.write("Say: forward");
+    }
+
+    if (input === "g") {
+      connection.write("Say: goal");
     }
     
   }
