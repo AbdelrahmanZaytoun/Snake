@@ -15,7 +15,6 @@ const setupInput = function(conn) {
 
   
   
-
   const handleUserInput = (conn, input) => {
     // console.log("----++++", input)
     if (input === '\u0003') {
@@ -25,6 +24,7 @@ const setupInput = function(conn) {
     if (input === "w"){
         connection.write('Move: up');
     }
+    
     if (input === "a"){
       connection.write('Move: left');
     }
