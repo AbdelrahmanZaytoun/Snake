@@ -4,8 +4,7 @@ const { connect } = require("./client");
 let connection; 
 
 const setupInput = function(conn) {
-  connection = conn;
-
+    connection = conn;
     const stdin = process.stdin;
     stdin.setRawMode(true);
     stdin.setEncoding('utf8');
@@ -17,7 +16,6 @@ const setupInput = function(conn) {
 
   
   
-  setupInput(connect)
 
   const handleUserInput = (conn, input) => {
     if (input === '\u0003') {
@@ -25,18 +23,18 @@ const setupInput = function(conn) {
     } 
     
     if (input === "w"){
-        console.log('Move: up');
+        connection.write('Move: up');
     }
     if (input === "a"){
-        console.log('Move: left');
+      connection.write('Move: left');
     }
     
     if (input === "s"){
-        console.log('Move: down');
+      connection.write('Move: down');
     }
 
     if (input === "d"){
-        console.log('Move: right');
+      connection.write('Move: right');
     }
     
   }
