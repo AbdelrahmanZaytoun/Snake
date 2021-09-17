@@ -10,8 +10,8 @@ Before you can run this client, you will need to be running the server side whic
 snek-multiplayer rep: https://github.com/lighthouse-labs/snek-multiplayer
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["SNAKE GAME"](https://github.com/AbdelrahmanZaytoun/Snake/blob/main/img/Screen%20Shot%202021-09-17%20at%205.12.56%20AM.png)
+
 
 
 ## Getting Started
