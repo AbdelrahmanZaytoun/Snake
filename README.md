@@ -12,6 +12,8 @@ snek-multiplayer rep: https://github.com/lighthouse-labs/snek-multiplayer
 
 !["SNAKE GAME"](https://github.com/AbdelrahmanZaytoun/Snake/blob/main/img/Screen%20Shot%202021-09-17%20at%205.12.56%20AM.png)
 
+!["Starting"](https://github.com/AbdelrahmanZaytoun/Snake/blob/main/img/Screen%20Shot%202021-09-17%20at%205.13.44%20AM.png
+)
 
 
 ## Getting Started
