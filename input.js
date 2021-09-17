@@ -22,6 +22,7 @@ const setupInput = function(conn) {
   stdin.on('data', key => {
     handleUserInput(key);
   });
+
   return stdin;
 };
 
